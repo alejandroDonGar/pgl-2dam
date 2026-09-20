@@ -1,1 +1,14 @@
 console.log("Hola, JavaScript");
+console.log("-------------------------------------");
+console.log("Estoy preparando mi primra Pokédex");
+console.log("Durante el curso utilizaremos JavaScript y TypeScript");
+console.log("-------------------------------------");
+const nombre = "Charmander";
+const tipo = "Fuego";
+const nivel = 8; 
+console.log(nombre);
+console.log(tipo);
+console.log(nivel);
+console.log("-------------------------------------");
+console.log("Tambien podemos mostrar la información de manera mas compacta y en una linea:");
+console.log(`${nombre} es de tipo ${tipo} y es de nivel ${nivel}`);
