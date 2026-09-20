@@ -38,6 +38,12 @@ Siguiendo las indicaciones del guion, he creado toda la estructura de carpetas p
 
 ![Creación carpeta de la práctica](../resources/Creacion%20de%20la%20carpeta%20que%20contiene%20los%20ejercicios%20de%20practica.png)
 
+### Estructura final de carpetas
+
+A continuación se muestra la estructura completa del directorio vista desde la terminal. Como se puede observar, las carpetas correspondientes a las unidades temáticas de `ut1-fundamentos` a `ut5-videojuego-unity` no aparecen en esta vista a pesar de haberlas creado anteriormente. Esto se debe a que Git no registra carpetas que se encuentran completamente vacías (sin ningún archivo dentro), por lo que no aparecen reflejadas hasta que se les añada contenido en próximas prácticas.
+
+![Estructura de carpetas (sin las vacías)](../resources/Escturtura%20de%20las%20carpetas%20sin%20las%20carpetas%20vacias.png)
+
 ### Paso 2. Creación del README principal
 
 He completado el archivo `README.md` de la raíz del repositorio con mis datos personales y los enlaces a los contenidos del módulo:
