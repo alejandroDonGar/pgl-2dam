@@ -1,35 +1,29 @@
-# Programación multimedia y dispositivos móviles
+# Práctica 00. Iniciación a JavaScript
 
-Repositorio de actividades y proyectos del módulo de Programación multimedia y dispositivos móviles.
+## Objetivos
 
-## Datos
+En esta práctica he preparado el repositorio del módulo y he tenido una primera toma de contacto con JavaScript.
 
-- Alumno/a: Alejandro Donate García
-- Curso: 2.º DAM
-- Curso académico: 2026/2027
+## Ejercicio 1. Mi primer programa
 
-## Contenidos
+Explica brevemente qué has hecho.
 
-### Tema 0. Introducción
+## Ejercicio 2. Operaciones básicas
 
-- [Práctica 00. Iniciación a JavaScript](tema-0-introduccion/practica-00-iniciacion-javascript/README.md)
+Explica qué operación y qué condición utiliza el programa.
 
-### UT1. Fundamentos y tecnologías para el desarrollo multiplataforma
+## Conceptos utilizados
 
-Próximamente.
+- `console.log()`:
+- Variable:
+- Texto:
+- Número:
+- Condición:
 
-### UT2. Desarrollo de aplicaciones móviles con React Native
+## Dificultades encontradas
 
-Próximamente.
+Indica si has encontrado algún problema y cómo lo has solucionado.
 
-### UT3. Multimedia y animaciones en aplicaciones móviles
+## Conclusión
 
-Próximamente.
-
-### UT4. Introducción a los motores de videojuegos
-
-Próximamente.
-
-### UT5. Desarrollo de un videojuego con Unity
-
-Próximamente.
+Explica brevemente qué has aprendido.
