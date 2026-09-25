@@ -86,15 +86,78 @@ function calcularEnergia(energiaActual, gasto) {
 const energiaFinal = calcularEnergia(100, 20);
 console.log("Calculo de la energia final: " + energiaFinal);
 
-function obtenerEstado(energiaActual2) {
+function obtenerEstado(energiaActual) {
 
-    if (energiaActual2 >= 50) {
+    if (energiaActual >= 50) {
         console.log("Puede entrenar");
     } else {
         console.log("No puede entrenar");
     }
 }
-
+// o
+const calucularEnergia2 = (energiaActual, gasto) => {
+    return energiaActual - gasto;
+}
+const calucularEnergia3 = (energiaActual, gasto) =>energiaActual - gasto;
+// o
 console.log(obtenerEstado(energiaFinal));
 
 console.log("--------------------------------------------------------------------");
+
+// Creación de objeto
+const pokemon2 = {
+    nombre: "Pikachu",
+    tipo: "Eléctrico",
+    nivel: 12,
+    energia: 70,
+};
+
+console.log(pokemon2.nombre);
+console.log(pokemon2.tipo);
+console.log(pokemon2.nivel);
+console.log(pokemon2.energia);
+console.log(obtenerEstado(pokemon2.energia));
+console.log(calcularEnergia(pokemon2.energia, 20));
+
+console.log("--------------------------------------------------------------------");
+
+const pokemon3 = {
+    nombre: "Eevee",
+    tipo: "normal",
+    nivel: 8,
+    energia: 80, 
+};
+// Array de pokemons
+const equipo = [pokemon2, pokemon3];
+
+console.log(equipo[0].nombre);
+console.log(equipo.length);
+
+// Recorrec el array e imprime la energia 
+for (const pokemon of equipo) {
+    console.log(pokemon.energia);
+}
+// Recorre el array, llama a la funcion obtenerEstado y comprueba si puede entrenar o no
+for (const pokemon of equipo) {
+    const estado = obtenerEstado(pokemon.energia);
+    console.log(`${pokemon.nombre}: ${estado}`)
+
+}
+
+const pokemon4 = {
+    nombre: "Incineroar",
+    tipo: "fuego",
+    nivel: 8,
+    energia: 80, 
+};
+const pokemon5 = {
+    nombre: "Charizard",
+    tipo: "fuego",
+    nivel: 8,
+    energia: 80, 
+};
+
+const equipo2 = [pokemon4, pokemon5];
+
+console.log(equipo.length + equipo2.length);
+
